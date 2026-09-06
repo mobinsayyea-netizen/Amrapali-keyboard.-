@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">आम्रपाली</string>
+    <string name="setup_title">आम्रपाली कीबोर्ड सेटअप</string>
+    <string name="setup_step1">चरण 1: पहले कीबोर्ड को चालू करें (Enable) करें।</string>
+    <string name="setup_step2">चरण 2: फिर इसे डिफ़ॉल्ट कीबोर्ड के रूप में चुनें (Select Input Method)।</string>
+    <string name="btn_enable">कीबोर्ड चालू करें</string>
+    <string name="btn_select">कीबोर्ड चुनें</string>
+</resources>
