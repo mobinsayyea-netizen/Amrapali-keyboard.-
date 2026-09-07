@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    namespace 'com.mobeen.amrapali'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.mobeen.amrapali"
+        minSdk 21
+        targetSdk 34
+        versionCode 4
+        versionName "1.3"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    // ExploreByTouchHelper -- lets a custom-drawn View expose each key as a proper
+    // accessibility "virtual view" so TalkBack can announce keys and activate them
+    // with its own double-tap gesture.
+    implementation 'androidx.customview:customview:1.1.0'
+}
